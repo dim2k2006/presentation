@@ -1,5 +1,5 @@
 {
-  "name": "generator-webapp-jade-sass",
+  "name": "presentation-for-designers",
   "version": "0.1.0",
   "dependencies": {
       "normalize.css": "~3.0.3",

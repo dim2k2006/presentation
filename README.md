@@ -1,7 +1,7 @@
-# webapp project genrator
-1. git clone git@github.com:dim2k2006/generator-jade-sass.git
+# Presentation for designers
+1. git clone git@github.com:dim2k2006/presentation.git
 
-2. cd generator-jade-sass
+2. cd presentation
 
 3. npm i && bower i
 

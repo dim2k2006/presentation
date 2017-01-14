@@ -1,15 +1,14 @@
 {
-    "name": "generator-webapp-jade-sass",
+    "name": "presentation-for-designers",
     "version": "0.1.0",
-    "description": "A yo generator for jade and sass projects",
+    "description": "Presentation for designers",
     "keywords": [
-        "yeoman-generator",
-        "webapp",
-        "jade",
-        "sass"
+        "Presentation",
+        "html",
+        "designers"
     ],
-    "homepage": "https://github.com/dim2k2006/generator-jade-sass",
-    "bugs": "https://github.com/dim2k2006/generator-jade-sass/issues",
+    "homepage": "https://github.com/dim2k2006/presentation",
+    "bugs": "https://github.com/dim2k2006/presentation/issues",
     "author": {
         "name": "Dmitry",
         "email": "dim2k2006@yandex.ru",
