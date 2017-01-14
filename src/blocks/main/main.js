@@ -50,11 +50,19 @@ $(document).ready(function() {
         };
 
         /**
+         * Init Reveal presentation
+         */
+        self.initSlides = function() {
+            Reveal.initialize();
+        };
+
+        /**
          * Init module
          */
         self.init = function() {
             self.initModules();
             self.featuresDetect();
+            self.initSlides();
         };
     };
 

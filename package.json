@@ -74,16 +74,6 @@
             "./src/bower_components/normalize.css/normalize.css",
             "./src/bower_components/lightslider/dist/css/lightslider.min.css",
             "./src/bower_components/reveal.js/css/reveal.css",
-            "./src/bower_components/reveal.js/css/theme/beige.css",
-            "./src/bower_components/reveal.js/css/theme/black.css",
-            "./src/bower_components/reveal.js/css/theme/blood.css",
-            "./src/bower_components/reveal.js/css/theme/league.css",
-            "./src/bower_components/reveal.js/css/theme/moon.css",
-            "./src/bower_components/reveal.js/css/theme/night.css",
-            "./src/bower_components/reveal.js/css/theme/serif.css",
-            "./src/bower_components/reveal.js/css/theme/simple.css",
-            "./src/bower_components/reveal.js/css/theme/sky.css",
-            "./src/bower_components/reveal.js/css/theme/solarized.css",
             "./src/bower_components/reveal.js/css/theme/white.css"
         ]
     },

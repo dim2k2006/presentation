@@ -1,9 +1,14 @@
 extends ../jade/layout
 
 block head
-    - var pageDescription="Главная";
-    - var pageKeywords="Главная";
-    - var pageTitle="Главная";
+    - var pageDescription="Presentation for designers";
+    - var pageKeywords="Presentation for designers";
+    - var pageTitle="Presentation for designers";
 
 block content
-    h1 контент
+    include ../blocks/slide1/slide1
+    include ../blocks/slide2/slide2
+
+
+    +slide1
+    +slide2
