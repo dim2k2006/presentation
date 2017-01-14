@@ -53,7 +53,9 @@ $(document).ready(function() {
          * Init Reveal presentation
          */
         self.initSlides = function() {
-            Reveal.initialize();
+            Reveal.initialize({
+                transition: 'convex'
+            });
         };
 
         /**
