@@ -54,6 +54,10 @@ $(document).ready(function() {
          */
         self.initSlides = function() {
             Reveal.initialize({
+                dependencies: [
+                    { src: 'notes/notes.js', async: true }
+                ],
+                history: true,
                 transition: 'convex'
             });
         };

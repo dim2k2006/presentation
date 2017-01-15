@@ -1,3 +1,11 @@
 mixin slide1
     +b('section')
-        +e('h1')!= "1. One sketch file for project"
+        +e('section')
+            +e('h1')!= "1. One sketch file for project"
+
+        +e('section')
+            +e('h2')!= "vertical slide"
+
+            +e('img')(src="images/vis-slide1-1.png")
+
+            +b('aside').notes!= "Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard)."

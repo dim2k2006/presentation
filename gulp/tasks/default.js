@@ -5,6 +5,7 @@ gulp.task('default', () => (
     runSequence(
         'clean',
         'copy',
+        'notes',
         'images',
         'styles-dependencies',
         'styles',

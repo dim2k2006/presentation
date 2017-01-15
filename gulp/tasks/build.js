@@ -5,6 +5,7 @@ gulp.task('build', () => (
     runSequence(
         'clean',
         'copy',
+        'notes',
         'images',
         'styles-dependencies',
         'styles',
