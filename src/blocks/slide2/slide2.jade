@@ -1,3 +1,50 @@
 mixin slide2
     +b('section')
-        +e('h1')!= "2. Clean layers"
+        +e('section')
+            +e('h1')!= "2. Clean layers"
+
+        +e('section')
+            +e('h6')!= "2. Clean layers"
+
+            +e('img')(src="images/vis-slide2-1.png")
+
+            +b('aside').notes
+                +e('p')!= "Design files should not have any extra unused layers and we must keep order in layers."
+
+                +e('p')!= "This screenshot is not from sketch, but in my opinion it shows the main idea."
+
+                +e('p')!= "Here we can see that each block of page is in it own folder (group) and I think it is good example."
+
+        +e('section')
+            +e('h6')!= "2. Clean layers"
+
+            +e('img')(src="images/vis-slide2-2.png")
+
+            +b('aside').notes
+                +e('p')!= "If we talk about images which consist of multiple layers, then all this layers should be in group."
+
+        +e('section')
+            +e('h6')!= "2. Clean layers"
+
+            +e('img')(src="images/vis-slide2-3.png")
+
+            +b('aside').notes
+                +e('p')!= "If we use svg in our project and if the image has some text, then it should be converted to curves."
+
+                +e('p')!= "Here we can see some text layer."
+
+        +e('section')
+            +e('h6')!= "2. Clean layers"
+
+            +e('img')(src="images/vis-slide2-4.png")
+
+            +b('aside').notes
+                +e('p')!= "To convert text to curves we should right click on text layer and choose «Convert to Outlines»."
+
+        +e('section')
+            +e('h6')!= "2. Clean layers"
+
+            +e('img')(src="images/vis-slide2-5.png")
+
+            +b('aside').notes
+                +e('p')!= "After that we can see that our text now consists of paths."
