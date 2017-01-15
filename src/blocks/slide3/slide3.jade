@@ -1,3 +1,29 @@
 mixin slide3
     +b('section')
-        +e('h1')!= "3. Grids"
+        +e('section')
+            +e('h1')!= "3. Grids"
+
+        +e('section')
+            +e('h6')!= "3.1 Grids"
+
+            +e('img')(src="images/vis-slide3-1.png")
+
+            +b('aside').notes
+                +e('p')!= "We must use grids in design and in html as well."
+
+                +e('p')!= "The benefits of using a grids:"
+
+                +e('ul')
+                    +e('li')!= "<strong>Clarity/Order</strong> — Grids bring order to a layout making it easier for visitors to find and navigate through information."
+
+                    +e('li')!= "<strong>Economy</strong> — Grids make it easier for other designers to work and collaborate on the design as they provide a plan for where to place elements."
+
+                    +e('li')!= "<strong>Consistency/Harmony</strong> — Grids lead to consistency in the layout of pages across a single site or even several sites creating a structural harmony in the design."
+
+                +e('p')!= "Developing of web application far more easier and faster when we use Grids."
+
+                +e('p')!= "For example, here on this screenshot I can see that we have sidebar and content. Sidebar takes 3 (three) columns and content takes 9 (nine) columns."
+
+                +e('p')!= "When we use Grids I dont need to do any calculations for that case. In my code editor I just tell to use 3 (three) columns for sidebar and 9 (nine) columns for content and thats all."
+
+                +e('p')!= "So Grids helps us to make our design better and lets us to develop faster and more efficient."
