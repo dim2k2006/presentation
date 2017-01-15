@@ -4,8 +4,17 @@ mixin slide1
             +e('h1')!= "1. One sketch file for project"
 
         +e('section')
-            +e('h2')!= "vertical slide"
+            +e('h6')!= "1. One sketch file for project"
 
             +e('img')(src="images/vis-slide1-1.png")
 
-            +b('aside').notes!= "Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard)."
+            +b('aside').notes
+                +e('p')!= "Here we can see one sketch file and it stores design for all project."
+
+                +e('p')!= "There is a list of pages on the left side of the screenshot."
+
+                +e('p')!= "Each page contain design for desktop, tablet and mobile."
+
+                +e('p')!= "This approach allows you to structure and organize information."
+
+                +e('p')!= "It also allows us to interact faster and much mor efficient with design files."
