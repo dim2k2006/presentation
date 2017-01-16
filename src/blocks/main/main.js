@@ -18,6 +18,7 @@ $(document).ready(function() {
         self.html = $('html');
         self.body = $('body');
         self.modules = $.modules;
+        self.container = $('.reveal');
 
         /**
          * Init all modules in $.modules
@@ -53,13 +54,17 @@ $(document).ready(function() {
          * Init Reveal presentation
          */
         self.initSlides = function() {
-            Reveal.initialize({
-                dependencies: [
-                    { src: 'notes/notes.js', async: true }
-                ],
-                history: true,
-                transition: 'convex'
-            });
+            if (self.container.length) {
+
+                Reveal.initialize({
+                    dependencies: [
+                        { src: 'notes/notes.js', async: true }
+                    ],
+                    history: true,
+                    transition: 'convex'
+                });
+
+            }
         };
 
         /**

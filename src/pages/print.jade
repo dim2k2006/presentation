@@ -1,0 +1,34 @@
+extends ../jade/layout
+
+block head
+    - var pageDescription="Presentation for designers";
+    - var pageKeywords="Presentation for designers";
+    - var pageTitle="Presentation for designers";
+
+block content
+    include ../blocks/intro/intro
+    include ../blocks/slide1/slide1
+    include ../blocks/slide2/slide2
+    include ../blocks/slide3/slide3
+    include ../blocks/slide4/slide4
+    include ../blocks/slide5/slide5
+    include ../blocks/slide6/slide6
+    include ../blocks/outro/outro
+
+    +b('div').reveal
+        +b('div').slides
+            +intro
+
+            +slide1
+
+            +slide2
+
+            +slide3
+
+            +slide4
+
+            +slide5
+
+            +slide6
+
+            +outro
