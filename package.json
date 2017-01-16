@@ -80,6 +80,7 @@
   },
   "vendorScripts": {
     "path": [
+      "./src/bower_components/jquery-1.11.1/dist/jquery.min.js",
       "./src/bower_components/lightslider/dist/js/lightslider.min.js",
       "./src/bower_components/matchHeight/dist/jquery.matchHeight.js",
       "./src/bower_components/reveal.js/lib/js/head.min.js",
