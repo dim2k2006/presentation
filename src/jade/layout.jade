@@ -5,7 +5,7 @@ include mixins/bemto
 block vars
     - var innerPage = false
 
-html(lang="ru")
+html(lang="ru", class= innerPage ? 'inner' : '')
 
     head
         meta(charset="utf-8")
